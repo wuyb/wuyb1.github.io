@@ -6,16 +6,20 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+// $text-color:       #111;
+// $background-color: #fdfdfd;
+// $brand-color:      #2a7ae2;
+$text-color:       #1c1c1c;
+$background-color: lighten(#a5dee4, 30%);
+$brand-color:      #1c1c1c;
+$link-color:       #434343;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

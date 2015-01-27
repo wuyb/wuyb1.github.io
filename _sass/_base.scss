@@ -43,6 +43,7 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+    margin: 10px 0px;
 }
 
 
@@ -89,16 +90,16 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $link-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $link-color;
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: darken($link-color, 10%);
+        text-decoration: none;
     }
 }
 
@@ -202,3 +203,4 @@ pre {
         }
     }
 }
+
