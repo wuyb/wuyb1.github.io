@@ -17,11 +17,11 @@
     margin-bottom: 0;
     margin-top: 1.2em;
     float: left;
+    color: $text-color;
+}
 
-    &,
-    &:visited {
-/*        color: $grey-color-dark; */
-    }
+a.site-title:visited {
+    color: lighten($text-color, 20%);
 }
 
 .site-nav {
@@ -101,6 +101,7 @@
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+    color: lighten($text-color, 40%);
 }
 
 .contact-list,
@@ -242,4 +243,8 @@
 .post-excerpt {
     color: lighten($text-color, 30%);
     font-size: 0.95em;
+}
+
+.text {
+    color: lighten($text-color, 40%);
 }
