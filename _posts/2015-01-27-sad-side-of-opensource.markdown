@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "开源的一种悲哀"
+title:  "The Sad Side of Open Source"
 date:   2015-01-27 11:51:03
 categories: 吐槽
 ---

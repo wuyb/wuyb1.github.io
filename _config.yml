@@ -12,4 +12,4 @@ github_username:  wuyb
 encoding: utf-8
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
