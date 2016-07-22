@@ -2,7 +2,7 @@
 layout: post
 title:  "React Native 和 Redux 初体验"
 date:   2016-07-22 19:43:10
-categories: 技术, 前端, React Native, Redux
+categories: 技术 前端 ReactNative Redux
 ---
 
 最近用业余时间撸了一个 iOS + Android 的玩具，后端用了 Spring Boot （这个后面有机会也会写一下），而移动端则尝试使用了 React Native 搭配 Redux。
